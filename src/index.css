@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rubik+Distressed&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+:root{
+  --color-primary-100: #B3F38C;
+  --color-primary-200: #95EE5E;
+  --color-primary-300: #76E92F;
+  --color-primary-400: #5DD016;
+  --color-primary-500: #48A111;
+  --color-primary-600: #34730C;
+  --color-primary-700: #1F4507;
+  --color-primary-800: #0A1702;
+
+  --color-neutral-white: #F7F7F7;
+  --color-neutral-black: #030303;
+
+  --font-family-primary: 'Rubik Distressed', sans-serif;
+  --font-family-logo: 'Exo 2', sans-serif;
+} 
