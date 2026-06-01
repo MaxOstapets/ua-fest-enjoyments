@@ -3,7 +3,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <main>
             <header className="header">
                 <div className="logoSection">
                   <img src="./images/logo.svg" className="logoHeader"/>
@@ -20,6 +19,8 @@ function App() {
                   </div>
                 </div>
             </header>
+        <main>
+            <span className='mainDescription'>Twenty One Pilots в Україні. Маштабний виступ американського гурту в палаці спорту на UA Fest Enjoyments</span>
         </main>
     </div>
   );

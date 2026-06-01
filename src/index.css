@@ -3,6 +3,7 @@
 *{
   margin: 0;
   padding: 0;
+  /* box-sizing: border-box; */
 }
 
 :root{
@@ -18,6 +19,6 @@
   --color-neutral-white: #F7F7F7;
   --color-neutral-black: #030303;
 
-  --font-family-primary: 'Rubik Distressed', system-ui;
-  --font-family-logo: 'Exo 2', sans-serif;
+  --font-family-logo: 'Rubik Distressed', system-ui;
+  --font-family-primary: 'Exo 2', sans-serif;
 } 

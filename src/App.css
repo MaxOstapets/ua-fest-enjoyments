@@ -1,19 +1,24 @@
-main{
+.App{
     background-image: url(../public/images/bg.jpg);
     background-size: cover;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(12, 102px);
+    max-width: 1444px;
+    gap: 20px;
+    height: 100vh;
 }
 
 .header{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    padding: 70px;
+    justify-content: space-between;
+    width: fill;
+    padding: 20px;
 }
 
 .logoSection{
@@ -23,8 +28,31 @@ main{
 }
 
 .mainTitle{
-    font-family: var(--font-family-primary);
+    font-family: var(--font-family-logo);
     font-size: 24px;
     color: var(--color-primary-300)
 }
 
+.contacts{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: var(--color-primary-100);
+    font-family: var(--font-family-primary);
+}
+
+.contactItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mainDescription{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: var(--font-family-primary);
+    color: var(--color-primary-200);
+    text-align: center;
+    grid-column: 2/12;
+    margin-top: 170px;
+}
