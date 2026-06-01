@@ -1,0 +1,30 @@
+main{
+    background-image: url(../public/images/bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 70px;
+}
+
+.logoSection{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.mainTitle{
+    font-family: var(--font-family-primary);
+    font-size: 24px;
+    color: var(--color-primary-300)
+}
+

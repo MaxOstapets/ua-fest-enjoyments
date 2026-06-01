@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rubik+Distressed&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 :root{
   --color-primary-100: #B3F38C;
   --color-primary-200: #95EE5E;
@@ -13,6 +18,6 @@
   --color-neutral-white: #F7F7F7;
   --color-neutral-black: #030303;
 
-  --font-family-primary: 'Rubik Distressed', sans-serif;
+  --font-family-primary: 'Rubik Distressed', system-ui;
   --font-family-logo: 'Exo 2', sans-serif;
 } 
