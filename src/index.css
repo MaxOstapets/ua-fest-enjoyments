@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rubik+Distressed&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   /* box-sizing: border-box; */
 }
 
-:root{
+:root {
   --color-primary-100: #B3F38C;
   --color-primary-200: #95EE5E;
   --color-primary-300: #76E92F;
@@ -21,4 +21,8 @@
 
   --font-family-logo: 'Rubik Distressed', system-ui;
   --font-family-primary: 'Exo 2', sans-serif;
-} 
+
+  --grid: repeat(12, 102px);
+  --max-widtg-grid: 1444px;
+  --grid-gap: 20px
+}
