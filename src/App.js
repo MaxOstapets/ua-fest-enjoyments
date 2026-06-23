@@ -43,7 +43,62 @@ function App() {
           <img src='./images/festImg.jpg' className='festImg' alt='fest' />
           <span className='goalText'>Наша мета - об’єднати фанатів музики, показати людям, що вони не самі, що поруч завжди знайдеться той хто зрозуміє і підтримає</span>
         </div>
-
+        <div className='price'>
+          <div className='priceWidget fanZone'>
+            <div className='priceText'>
+              <span className='titlePrice'>Fan Zone</span>
+              <p className='aboutZone'>найближча зона до сцени. квиток коштує 4500 грн</p>
+            </div>
+            <button className='buy'>
+              <p className='buyButtonText'>Купити</p>
+              <img src='./images/buyIcon.svg' alt='buy icon' className='buyIcon' />
+            </button>
+          </div>
+          <div className='priceWidget sector'>
+            <div className='priceText'>
+              <span className='titlePrice'>Sector</span>
+              <p className='aboutZone'>зона сектору з сидіннями. квиток коштує 2200 грн</p>
+            </div>
+            <button className='buy'>
+              <p className='buyButtonText'>Купити</p>
+              <img src='./images/buyIcon.svg' alt='buy icon' className='buyIcon' />
+            </button>
+          </div>
+        </div>
+        <section className='twentyOnePilots'>
+          <div className='bio'>
+            <span className='bioTitle'>Twenty Øne Piløts</span>
+            <p className='aboutTOP'>Американський музичний дует із міста Колумбус, штат Огайо. Це мікс фортепіано, синтезатора, барабанів, вокалу, укулеле і бас-гітари. Їхня історія про місто “Dema” та континент “Trench” вас зацікавить</p>
+          </div>
+          <div className='cards'>
+            <div className='card tyler'>
+              <img src='./images/tylerImg.jpg' className='tylerImg' alt='tyler' />
+              <div className='cardDescription'>
+                <div className='cardsDescHat'>
+                  <div className='nameAndRole'>
+                    <span className='name'>Тайлер Джозеф</span>
+                    <p className='role'>фронтмен</p>
+                  </div>
+                  <img src='./images/microphoneIcon.svg' alt='microphone' />
+                </div>
+                <span className='aboutArtist'>Грає на клавішах, укулеле, бас-гітарі. Тайлер пише тексти пісень і є засновником гурту. Йому 37 років.  Має дружину і трьох дітей</span>
+              </div>
+            </div>
+            <div className='card josh'>
+              <img src='./images/joshImg.jpg' className='joshImg' alt='josh' />
+              <div className='cardDescription'>
+                <div className='cardsDescHat'>
+                  <div className='nameAndRole'>
+                    <span className='name'>Джош Дан</span>
+                    <p className='role'>барабанщик</p>
+                  </div>
+                  <img src='./images/drumsIcon.svg' alt='drums' />
+                </div>
+                <span className='aboutArtist'>Грає на барабанах і заряджає атмосферою. Він дуже важлива частина гурту. Має дружину та дитину.</span>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
