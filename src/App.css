@@ -193,6 +193,7 @@ main {
     gap: 44px;
     border: 3px solid var(--color-primary-400);
     height: fit-content;
+    margin-bottom: 100px;
 }
 
 .bioTitle {
@@ -207,4 +208,14 @@ main {
     line-height: 47px;
     color: var(--color-neutral-white);
     text-align: center;
+}
+
+.cards {
+    grid-column: 1/12;
+    display: flex;
+    gap: 20px;
+}
+
+.tyler {
+    grid-column: 1/7;
 }
